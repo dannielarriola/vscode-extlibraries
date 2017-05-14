@@ -2,7 +2,7 @@
 
 Visual studio code extension: Add External libraries to project as symlinks. This is useful for non native functions completions.
 
-![setting](img/setting.gif)
+![setting](setting.gif)
 
 
 ## Extension Settings
@@ -13,3 +13,5 @@ Visual studio code extension: Add External libraries to project as symlinks. Thi
 * Input name and press Intro.
 
 -----------------------------------------------------------------------------------------------------------
+
+Icons made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
