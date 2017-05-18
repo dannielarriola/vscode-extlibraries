@@ -24,10 +24,9 @@ function activate(context) {
                 fs.stat(input, (err, stat) => {
                     if (stat && (stat.isFile() || stat.isDirectory())) {
                         vscode.window.showInputBox({ "prompt": "Name" }).then((name) => {
-                            fs.symlink(input, vscode.workspace.rootPath + "/" + name, () => {
+                            fs.symlink(input, vscode.workspace.rootPath + "/" + name,  () => {
                                 vscode.window.showInformationMessage('symlink created in ' + vscode.workspace.rootPath + "/" + name);
                             });
-
                         });
                     }else{
                         vscode.window.showErrorMessage('You must provide a valid file or directory path');

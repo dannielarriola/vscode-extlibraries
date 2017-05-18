@@ -3,7 +3,7 @@
     "icon": "library.svg",
     "displayName": "External libraries",
     "description": "Add external libraries to project as symlinks",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "dannielarriola",
     "engines": {
         "vscode": "^1.12.0"
